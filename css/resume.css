@@ -1,0 +1,95 @@
+body{
+  background:#D1BFE0;
+}
+.parent{
+  background:#F592B9;
+  width:90%;
+  display: flex;
+  flex-wrap:wrap;
+  /* text-align:center; */
+  margin:3%;
+  margin-left: 1.7%;
+  padding:3%;
+  border:2px solid #6C3483;
+  border-radius:2%;
+}
+.profile{
+  background: #A3E4D7;
+  width:29%;
+  text-align: center;
+  border:2px solid #117A65;
+  border-radius:2%;
+
+}
+img{
+  width:70%;
+  height:48%;
+}
+.academic{
+  background:#A3E4D7;
+  width:68%;
+  border:2px solid #117A65;
+  margin-left:1.7%;
+  border-radius:2%;
+}
+table{
+  width:90%;
+}
+table th,td{
+  border:1.5px solid purple;
+}
+table tr:nth-child(even){
+  background: #CCD1D1;
+}
+@media screen and (max-width:767px){
+  .parent{
+    flex-wrap:wrap;
+  }
+  .profile{
+    width:100%;
+  }
+  .academic{
+    width:100%;
+  }
+  table{
+    font-size:10px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  table{
+    font-size:10px;
+  }
+  body{
+    margin-top: 30%;
+  }
+  .parent{
+    flex-wrap:wrap;
+  }
+  .profile{
+    width:40%;
+    margin-left: 1.7%;
+  }
+  .academic{
+    width:50%;
+    margin-left: 5%;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1366px){
+  .parent{
+    flex-wrap:wrap;
+  }
+  body{
+    margin-top: 37%;
+  }
+  .profile{
+    width:40%;
+    margin-left: 1.7%;
+  }
+  .academic{
+    width:50%;
+    margin-left: 5%;
+  }
+  table{
+    font-size:10px;
+  }
+}
